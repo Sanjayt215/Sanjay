@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .photo {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Bio Data</h1>
+        <img src="data:image/jpeg;base64,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" alt="My Photo" class="photo">
+
+        <h2>Contact Details</h2>
+        <table>
+            <tr>
+                <th>Field</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td>+91 9342563939</td>
+            </tr>
+            <tr>
+                <td>Email Address</td>
+                <td>sanjaytamil248@gmail.com</td>
+            </tr>
+        </table>
+
+        <h2>Personal Information</h2>
+        <table>
+            <tr>
+                <th>Field</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Full Name</td>
+                <td>Sanjay</td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>03-11-2006</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>Tamilnadu</td>
+            </tr>
+            <tr>
+                <td>Education</td>
+                <td>Sri rama chandra </td>
+            </tr>
+           
+            <tr>
+                <td>Skills</td>
+                <td>Some basic level coding</td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td>playing games like football,carrom.</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
